@@ -7,6 +7,7 @@ module.exports = class PastebinSettings extends React.Component {
 
     this.settings = props.settings;
     this.state = {
+      postURL: props.settings.get('postURL', 'https://pastebin.com/api/api_post.php'),
       pasteDevKey: props.settings.get('pasteDevKey', ''),
       pasteUserKey: props.settings.get('pasteUserKey', ''),
       pasteOption: props.settings.get('pasteOption', 'paste'),
