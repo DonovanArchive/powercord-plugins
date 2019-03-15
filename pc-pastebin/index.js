@@ -46,7 +46,7 @@ module.exports = class Pastebin extends Plugin {
           if (!data) {
             return {
               send: false,
-              result: `Invalid arguments. Run \`${prefix}help hastebin\` for more information.`
+              result: `Invalid arguments. Run \`${prefix}help pastebin\` for more information.`
             };
           }
 
