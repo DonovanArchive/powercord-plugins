@@ -4,7 +4,7 @@
   "description": "Quickly save and post to pastebin in the current channel",
   "author": "Donovan_DMC",
   "license": "AGPL-3.0",
-  "repo": "https://github.com/DonovanDMC/pc-pastebin",
+  "repo": "https://github.com/DonovanDMC/powercord",
   "dependencies": [
     "pc-commands",
     "pc-settings"
