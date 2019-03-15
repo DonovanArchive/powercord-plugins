@@ -25,7 +25,7 @@ module.exports = class Pastebin extends Plugin {
       postURL = this.settings.get('postURL', 'https://pastebin.com/api/api_post.php'),
       prefix = powercord.pluginManager
         .get('pc-commands').settings
-        .get('prefix', '.'); // @todo: make not ugly at time other than 4:30am
+        .get('prefix', '.');
 
     powercord
       .pluginManager
