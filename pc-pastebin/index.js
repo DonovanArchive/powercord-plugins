@@ -64,7 +64,7 @@ module.exports = class Pastebin extends Plugin {
 
           return {
             send,
-            result: body
+            result: body.toString()
           };
         }
       );
@@ -88,6 +88,6 @@ module.exports = class Pastebin extends Plugin {
       return get(input).then(res => res.raw);
     }
 
-    return false;
+    return input;
   }
 };
